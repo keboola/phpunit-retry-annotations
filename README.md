@@ -220,3 +220,7 @@ private function myCustomDelay($attempt, $multiplier, $maxDelay)
     sleep(min($attempt * $multiplier, $max));
 }
 ```
+
+## License
+
+MIT licensed, see [LICENSE](./LICENSE) file.
